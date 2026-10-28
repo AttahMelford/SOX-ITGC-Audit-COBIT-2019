@@ -105,7 +105,7 @@ The engagement will follow a structured, risk-based approach:
 
 ## 8. Frameworks and References
 
-### Sarbanes–Oxley Act (SOX)
+### Sarbanes-Oxley Act (SOX)
 
 Provides the regulatory context for internal control over financial reporting, including relevant management responsibilities under Section 404.
 
@@ -113,7 +113,7 @@ Provides the regulatory context for internal control over financial reporting, i
 
 Provides governance and management objectives that can help structure IT control assessment and documentation. Control mappings will be validated against the applicable COBIT 2019 guidance.
 
-### COSO Internal Control—Integrated Framework
+### COSO Internal Control-Integrated Framework
 
 Provides the broader internal control context for evaluating controls relevant to financial reporting.
 
