@@ -1,14 +1,17 @@
 Control ID,ITGC Domain,Control Objective,COBIT 2019 Objective,Objective Description,Mapping Rationale,Validation Status
-ITGC-AC-01,Access Management,Ensure financial system access is authorized,DSS05,Managed Security Services,"Supports logical access security and protection of information assets",Preliminary
-ITGC-AC-02,Access Management,Restrict privileged access to authorized personnel,DSS05,Managed Security Services,"Supports protection of systems through access security measures",Preliminary
-ITGC-AC-03,Access Management,Ensure timely removal of terminated employee access,APO07,Managed Human Resources,"Supports management of personnel-related access risks when employees leave",Preliminary
-ITGC-AC-04,Access Management,Ensure user permissions remain appropriate,DSS05,Managed Security Services,"Supports ongoing monitoring and management of logical access",Preliminary
-ITGC-CH-01,Change Management,Ensure production changes are authorized,BAI06,Managed IT Changes,"Supports controlled authorization and management of IT changes",Preliminary
-ITGC-CH-02,Change Management,Ensure changes are adequately tested before release,BAI07,Managed IT Change Acceptance and Transitioning,"Supports testing and acceptance of changes before transition into production",Preliminary
-ITGC-CH-03,Change Management,Restrict production deployment privileges,BAI06,Managed IT Changes,"Supports controlled implementation and management of production changes",Preliminary
-ITGC-CH-04,Change Management,Ensure emergency changes receive appropriate retrospective review,BAI06,Managed IT Changes,"Supports governance and review of emergency changes",Preliminary
-ITGC-OP-01,IT Operations,Ensure financial system backups are monitored,DSS01,Managed Operations,"Supports monitoring and management of routine IT operations",Preliminary
-ITGC-OP-01,IT Operations,Ensure financial system backups are monitored,DSS04,Managed Continuity,"Supports backup and recovery capabilities for business continuity",Preliminary
-ITGC-OP-02,IT Operations,Ensure scheduled financial processing jobs complete successfully,DSS01,Managed Operations,"Supports monitoring and management of operational processing activities",Preliminary
-ITGC-OP-03,IT Operations,Ensure incidents are appropriately tracked and resolved,DSS02,Managed Service Requests and Incidents,"Supports incident logging, investigation, tracking and resolution",Preliminary
-ITGC-OP-04,IT Operations,Ensure critical financial systems have tested recovery arrangements,DSS04,Managed Continuity,"Supports continuity planning and recovery testing",Preliminary
+ITGC-AC-01,Access Management,Ensure financial system access is authorized,DSS05,Managed Security Services,Supports logical access security and protection of information assets,Preliminary
+ITGC-AC-02,Access Management,Restrict privileged access to authorized personnel,DSS05,Managed Security Services,Supports protection of systems through access security measures,Preliminary
+ITGC-AC-02,Access Management,Restrict privileged access to authorized personnel,APO13,Managed Security,Supports the organization's information security management activities,Preliminary
+ITGC-AC-03,Access Management,Ensure timely removal of terminated employee access,APO07,Managed Human Resources,Supports management of personnel-related access risks when employees leave,Preliminary
+ITGC-AC-03,Access Management,Ensure timely removal of terminated employee access,DSS05,Managed Security Services,Supports logical access protection and access revocation processes,Preliminary
+ITGC-AC-04,Access Management,Ensure user permissions remain appropriate,DSS05,Managed Security Services,Supports ongoing monitoring and management of logical access,Preliminary
+ITGC-CH-01,Change Management,Ensure production changes are authorized,BAI06,Managed IT Changes,Supports controlled authorization and management of IT changes,Preliminary
+ITGC-CH-02,Change Management,Ensure changes are adequately tested before release,BAI07,Managed IT Change Acceptance and Transitioning,Supports testing and acceptance of changes before transition into production,Preliminary
+ITGC-CH-03,Change Management,Restrict production deployment privileges,BAI06,Managed IT Changes,Supports controlled implementation and management of production changes,Preliminary
+ITGC-CH-03,Change Management,Restrict production deployment privileges,DSS05,Managed Security Services,Supports security management of privileged production access,Preliminary
+ITGC-CH-04,Change Management,Ensure emergency changes receive appropriate retrospective review,BAI06,Managed IT Changes,Supports governance and review of emergency changes,Preliminary
+ITGC-OP-01,IT Operations,Ensure financial system backups are monitored,DSS01,Managed Operations,Supports monitoring and management of routine IT operations,Preliminary
+ITGC-OP-01,IT Operations,Ensure financial system backups are monitored,DSS04,Managed Continuity,Supports backup and recovery capabilities for business continuity,Preliminary
+ITGC-OP-02,IT Operations,Ensure scheduled financial processing jobs complete successfully,DSS01,Managed Operations,Supports monitoring and management of operational processing activities,Preliminary
+ITGC-OP-03,IT Operations,Ensure incidents are appropriately tracked and resolved,DSS02,Managed Service Requests and Incidents,Supports incident logging investigation tracking and resolution,Preliminary
+ITGC-OP-04,IT Operations,Ensure critical financial systems have tested recovery arrangements,DSS04,Managed Continuity,Supports continuity planning and recovery testing,Preliminary
