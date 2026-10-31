@@ -10,4 +10,4 @@ CM-04,ITGC-CH-04,Change Management,Emergency changes,12,8,Risk-based,"Select eme
 OP-01,ITGC-OP-01,IT Operations,Daily backup executions,365,12,Monthly coverage,"Select backup executions across the year to assess monitoring throughout the audit period.",2025,Verify backup monitoring and failure resolution
 OP-02,ITGC-OP-02,IT Operations,Scheduled financial processing job executions,250,12,Risk-based,"Select job executions to evaluate monitoring and investigation of failures.",2025,Verify financial processing job monitoring
 OP-03,ITGC-OP-03,IT Operations,Financial system incidents,60,10,Risk-based,"Select incidents to assess classification investigation and closure.",2025,Verify incident management
-OP-04,ITGC-OP-04,IT Operations,Annual recovery tests,2,2,Complete population,"Test both scheduled recovery tests because the population is limited.",2025,Verify recovery testing and remediation of identified issues"
+OP-04,ITGC-OP-04,IT Operations,Annual recovery tests,2,2,Complete population,"Test both scheduled recovery tests because the population is limited.",2025,Verify recovery testing and remediation of identified issues
