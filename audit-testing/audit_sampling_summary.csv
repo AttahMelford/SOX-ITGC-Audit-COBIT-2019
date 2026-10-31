@@ -1,0 +1,13 @@
+Test ID,Control ID,ITGC Domain,Population Description,Population Size,Sample Size,Sample Selection Method,Selection Rationale,Audit Period,Testing Objective
+AM-01,ITGC-AC-01,Access Management,New user access requests,25,10,Risk-based,"Select new accounts to verify that access was approved before provisioning.",Q1 2025,Verify authorization of new user access
+AM-02,ITGC-AC-02,Access Management,Privileged user accounts,18,10,Risk-based,"Focus on privileged accounts because of their elevated access and potential impact.",December 31 2025,Verify privileged access restrictions and periodic reviews
+AM-03,ITGC-AC-03,Access Management,Employee terminations,20,10,Risk-based,"Select termination records to verify timely removal of system access.",2025,Verify timely access removal
+AM-04,ITGC-AC-04,Access Management,Quarterly user access reviews,4,4,Complete population,"Test all four quarterly reviews to establish coverage across the year.",2025,Verify completion and documentation of access reviews
+CM-01,ITGC-CH-01,Change Management,Production changes,40,10,Risk-based,"Select production changes to verify authorization before deployment.",2025,Verify production change authorization
+CM-02,ITGC-CH-02,Change Management,Production changes,40,10,Risk-based,"Select changes to verify documented testing before production deployment.",2025,Verify change testing and review
+CM-03,ITGC-CH-03,Change Management,Personnel with production deployment access,15,10,Risk-based,"Focus on personnel with production privileges because of their ability to modify systems.",December 31 2025,Verify production deployment access restrictions
+CM-04,ITGC-CH-04,Change Management,Emergency changes,12,8,Risk-based,"Select emergency changes to verify justification and retrospective review.",2025,Verify emergency change governance
+OP-01,ITGC-OP-01,IT Operations,Daily backup executions,365,12,Monthly coverage,"Select backup executions across the year to assess monitoring throughout the audit period.",2025,Verify backup monitoring and failure resolution
+OP-02,ITGC-OP-02,IT Operations,Scheduled financial processing job executions,250,12,Risk-based,"Select job executions to evaluate monitoring and investigation of failures.",2025,Verify financial processing job monitoring
+OP-03,ITGC-OP-03,IT Operations,Financial system incidents,60,10,Risk-based,"Select incidents to assess classification investigation and closure.",2025,Verify incident management
+OP-04,ITGC-OP-04,IT Operations,Annual recovery tests,2,2,Complete population,"Test both scheduled recovery tests because the population is limited.",2025,Verify recovery testing and remediation of identified issues"
