@@ -2,110 +2,93 @@
 
 ## Project Overview
 
-This project demonstrates a simulated, risk-based audit of IT General Controls (ITGCs) supporting internal control over financial reporting at Apex Financial Services, Inc., a fictional publicly traded US financial services company.
+This project presents a simulated, risk-based audit of IT General Controls (ITGCs) supporting internal control over financial reporting at Apex Financial Services, Inc., a fictional publicly traded U.S. financial services company.
 
-The project focuses on evaluating IT controls that support the reliability of financial reporting systems. It demonstrates practical audit activities, including risk assessment, control documentation, design evaluation, operating-effectiveness testing, evidence analysis, exception identification, deficiency assessment, and remediation planning.
+The project demonstrates an end-to-end IT audit workflow, including risk assessment, control documentation, COBIT 2019 mapping, audit sampling, evidence evaluation, operating-effectiveness testing, exception identification, preliminary findings, and remediation planning.
 
-The engagement incorporates the Sarbanes–Oxley Act (SOX), COBIT 2019, and the COSO Internal Control—Integrated Framework.
-
-**Project Status:** In Progress  
-**Project Type:** Practical GRC and IT Audit Portfolio  
-**Audit Type:** Simulated SOX ITGC Audit  
+**Project Status:** Completed Portfolio Simulation  
+**Audit Period:** January 1 – December 31, 2025  
+**Report Date:** January 31, 2026  
+**Audit Type:** Simulated Risk-Based SOX ITGC Audit  
 **Industry:** Financial Services  
-**Tools:** Microsoft Excel, GitHub, Markdown, and CSV  
-**Primary Framework:** COBIT 2019  
-**Regulatory Context:** Sarbanes–Oxley Act (SOX)
+**Primary Framework Reference:** COBIT 2019  
+**Regulatory Context:** Sarbanes–Oxley Act (SOX), Section 404  
+**Supporting Framework:** COSO Internal Control – Integrated Framework  
+**Tools:** Microsoft Excel, CSV, Markdown, and GitHub
 
 ## Business Scenario
 
-Apex Financial Services, Inc. relies on financial applications, databases, and supporting IT infrastructure to process transactions and prepare financial reports.
+Apex Financial Services, Inc. is a fictional publicly traded financial services organization that relies on financial applications, databases, and supporting IT infrastructure to process transactions and prepare financial reports.
 
-Weaknesses in access management, change management, or IT operations could expose financial reporting systems to unauthorized changes, inappropriate access, processing errors, or interruptions.
+The simulated audit evaluates selected IT controls that support the reliability of financial reporting systems. The work focuses on three ITGC domains:
 
-In this simulation, the auditor evaluates selected controls supporting financial reporting, examines simulated audit evidence, documents exceptions, and develops recommendations to address identified weaknesses.
+1. Access Management
+2. Change Management
+3. IT Operations
 
-The simulated audit period is January 1 through December 31, 2025.
+## Audit Objectives
 
-## Project Objectives
-
-The project aims to demonstrate the ability to:
+The project demonstrates the ability to:
 
 - Identify IT risks relevant to financial reporting.
 - Develop a Risk and Control Matrix (RCM).
-- Document control objectives, control activities, owners, and frequencies.
-- Map selected controls to relevant COBIT 2019 objectives and practices.
-- Evaluate control design and operating effectiveness.
-- Develop audit procedures and document sample selections.
-- Examine evidence and record testing results.
-- Identify control exceptions and assess their potential implications.
-- Develop remediation recommendations and follow-up procedures.
+- Document control objectives, activities, owners, and frequencies.
+- Map selected ITGCs to COBIT 2019 objectives.
+- Document audit populations and sample selection.
+- Perform simulated operating-effectiveness testing.
+- Evaluate evidence and identify control exceptions.
+- Document preliminary audit findings and recommendations.
+- Develop remediation actions and follow-up procedures.
 - Prepare a structured audit report.
 
 ## Audit Scope
 
-The primary scope consists of three ITGC domains.
-
-### 1. Access Management
-
-- User provisioning and authorization.
-- Privileged access management.
-- Terminated employee access removal.
+### Access Management
+- New user access authorization.
+- Privileged access restrictions and periodic reviews.
+- Timely removal of terminated employee access.
 - Periodic user access reviews.
 
-### 2. Change Management
-
+### Change Management
 - Production change authorization.
-- Testing before implementation.
-- Production deployment restrictions.
-- Emergency change documentation and review.
+- Testing before production deployment.
+- Production deployment access restrictions.
+- Emergency change documentation and retrospective review.
 
-### 3. IT Operations
-
+### IT Operations
 - Backup monitoring and failure resolution.
 - Scheduled financial processing job monitoring.
-- IT incident management.
-- Recovery arrangements for critical systems.
+- Financial system incident management.
+- Recovery arrangements and testing.
 
-A limited IT Application Controls (ITAC) example may be included to demonstrate how application-level controls relate to the supporting ITGC environment.
+**IT Application Controls (ITACs) were not tested in this simulation.** The engagement is limited to selected IT General Controls.
 
 ## Frameworks and References
 
-### Sarbanes–Oxley Act (SOX)
+- **SOX Section 404:** Regulatory context for internal control over financial reporting.
+- **COSO Internal Control – Integrated Framework:** Broader internal control framework.
+- **COBIT 2019:** Governance and management objectives used as supporting references for IT control mapping.
 
-Provides the regulatory context for internal control over financial reporting.
+COBIT and COSO support the assessment; they do not replace applicable legal requirements or professional auditing standards.
 
-### COBIT 2019
+## Audit Results at a Glance
 
-Provides governance and management objectives to help structure the assessment of IT controls.
+| Audit Measure | Result |
+|---|---:|
+| ITGC domains | 3 |
+| Controls documented and tested | 12 |
+| Total sample items documented | 108 |
+| Controls passing sample tests | 6 |
+| Controls with exceptions | 6 |
+| Preliminary findings | 6 |
+| Remediation actions | 6 |
 
-### COSO Internal Control-Integrated Framework
-
-Provides the broader internal control context relevant to financial reporting.
-
-These references serve different purposes. COBIT and COSO support the assessment but do not replace applicable legal requirements or professional auditing standards.
-
-## Planned Deliverables
-
-The repository will contain the following work products as the project progresses:
-
-| Deliverable | Purpose |
-|---|---|
-| Audit Scope | Defines the engagement objectives, boundaries, systems, and audit period. |
-| Audit Methodology | Documents the risk-based approach and testing procedures. |
-| Framework Mapping | Explains the relationship between SOX, COBIT 2019, and COSO. |
-| Risk and Control Matrix | Connects financial reporting risks to control objectives and activities. |
-| Control Testing Workpapers | Documents sample selection, audit procedures, evidence, and results. |
-| Evidence Register | Tracks evidence identifiers and their relationship to audit tests. |
-| Findings and Exceptions Log | Documents exceptions, deficiencies, and their potential implications. |
-| Remediation Plan | Tracks recommended corrective actions and responsible owners. |
-| Final Audit Report | Summarizes the simulated engagement and its conclusions. |
+The results are simulated and are not statistical projections of an actual organization's control environment.
 
 ## Repository Structure
 
-The planned structure is:
-
 ```text
-sox-itgc-audit-cobit-2019/
+SOX-ITGC-Audit-COBIT-2019/
 │
 ├── README.md
 │
@@ -114,7 +97,8 @@ sox-itgc-audit-cobit-2019/
 │   └── audit_methodology.md
 │
 ├── references/
-│   └── framework_mapping.md
+│   ├── framework_mapping.md
+│   └── cobit_control_mapping.csv
 │
 ├── risk-control-matrix/
 │   └── sox_itgc_rcm.csv
@@ -122,47 +106,44 @@ sox-itgc-audit-cobit-2019/
 ├── audit-testing/
 │   ├── access_management_testing.csv
 │   ├── change_management_testing.csv
-│   └── it_operations_testing.csv
+│   ├── it_operations_testing.csv
+│   └── audit_sampling_summary.csv
 │
 ├── evidence/
 │   └── evidence_register.csv
 │
 ├── findings/
 │   ├── findings_log.csv
-│   └── remediation_plan.csv
+│   ├── remediation_plan.csv
+│   └── management_responses.csv
 │
 └── reports/
     └── final_audit_report.md
 ```
 
-Additional files and supporting evidence will be added as the project develops. The structure above represents the planned organization, not a claim that all files have already been created.
+## Audit Approach
 
-## Approach to Audit Testing
+The simulation distinguishes between:
 
-The simulated engagement will distinguish between:
+- **Design effectiveness:** Whether a control is suitably designed to address an identified risk.
+- **Operating effectiveness:** Whether a control operated as intended during the audit period.
 
-**Design effectiveness:** Whether the control is suitably designed to address the identified risk.
+The documented sample results primarily demonstrate simulated operating-effectiveness testing. They do not establish a complete design-effectiveness conclusion or provide statistical assurance.
 
-**Operating effectiveness:** Whether the control operated as intended during the defined audit period.
+Evidence references link testing workpapers to the evidence register at the test level. Individual sample-level identifiers and item-by-item results are not included in this portfolio.
 
-Testing will use documented hypothetical populations and simulated evidence. Sample selection, testing procedures, exceptions, and conclusions will be recorded in the appropriate workpapers.
+## Intended Professional Relevance
 
-Control deficiencies will be evaluated based on the supporting evidence and their potential implications for financial reporting. An individual exception will not automatically be classified as a material weakness.
+This portfolio demonstrates practical concepts relevant to:
 
-## Expected Outcome
-
-The completed project will provide a documented example of an IT audit workflow, from risk identification through control testing and remediation planning.
-
-It is intended to demonstrate practical skills relevant to:
-
-- IT Auditor.
-- SOX IT Controls Analyst.
-- IT Compliance Analyst.
-- IT Risk Analyst.
-- Governance, Risk, and Compliance (GRC) Analyst.
+- IT Auditor
+- SOX IT Controls Analyst
+- IT Compliance Analyst
+- IT Risk Analyst
+- Governance, Risk, and Compliance (GRC) Analyst
 
 ## Disclaimer
 
-This is an educational portfolio project involving a fictional organization. All company information, evidence, populations, test results, findings, and conclusions will be simulated and clearly identified as such.
+Apex Financial Services, Inc. is fictional. All company information, systems, populations, evidence, test results, findings, management responses, and remediation activities are simulated.
 
-The project does not constitute an actual SOX audit, independent audit opinion, certification, or assurance engagement. It does not establish that any real organization complies or fails to comply with SOX, COBIT, or COSO.
+This project is an educational portfolio exercise. It is not an actual SOX audit, independent audit opinion, certification, or assurance engagement. It does not establish that any real organization complies or fails to comply with SOX, COBIT, or COSO.
