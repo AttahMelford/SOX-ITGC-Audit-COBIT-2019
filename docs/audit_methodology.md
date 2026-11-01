@@ -1,218 +1,435 @@
-# SOX IT General Controls Audit Methodology
+# Audit Methodology
 
-## 1. Purpose
+## 1. Introduction
 
-This document defines the methodology for conducting the simulated SOX IT General Controls (ITGC) audit of Apex Financial Services, Inc., a fictional publicly traded US financial services company.
+This document describes the methodology applied in the simulated SOX IT General Controls (ITGC) audit of Apex Financial Services, Inc., a fictional publicly traded U.S. financial services company.
 
-The methodology establishes a consistent approach to risk assessment, control evaluation, sample selection, evidence inspection, exception analysis, and audit reporting.
+The methodology covers risk assessment, control documentation, COBIT 2019 mapping, audit sampling, evidence evaluation, operating-effectiveness testing, exception assessment, findings development, remediation planning, and reporting.
+
+The audit period was January 1 through December 31, 2025. The simulated report date was January 31, 2026.
 
 ## 2. Audit Approach
 
-The engagement will follow a risk-based approach focused on IT controls that support internal control over financial reporting.
+A risk-based audit approach was used to prioritize IT controls that could affect the reliability of financial reporting.
 
-Audit procedures will be designed to evaluate two separate aspects of control effectiveness:
+The methodology followed these stages:
 
-- **Design effectiveness:** Whether a control, if implemented as described, is appropriately designed to address the identified risk.
-- **Operating effectiveness:** Whether the control operated as intended during the period under review.
+1. Identify relevant IT risks.
+2. Assess inherent risk.
+3. Document control objectives and activities.
+4. Map selected controls to relevant COBIT 2019 objectives.
+5. Define audit populations and sample selections.
+6. Document audit procedures and evidence references.
+7. Evaluate simulated operating effectiveness.
+8. Record exceptions.
+9. Develop preliminary audit findings.
+10. Recommend corrective actions.
+11. Document simulated management responses.
+12. Prepare the final audit report.
 
-A control may be appropriately designed but fail to operate consistently. These two assessments will therefore be documented separately.
+## 3. Risk Assessment Methodology
 
-## 3. Risk Assessment
+Risks were assessed using two dimensions:
 
-Risks will be identified based on the hypothetical financial reporting environment, relevant IT processes, and potential control weaknesses.
+- Likelihood: the estimated possibility of the risk occurring.
+- Impact: the potential severity of the consequences if the risk occurred.
 
-Each risk will be evaluated using a five-point likelihood scale and a five-point impact scale.
+Both dimensions were scored on a scale of 1 to 5.
 
-### Likelihood
+### 3.1 Likelihood Scale
 
 | Score | Rating | Description |
 |---|---|---|
-| 1 | Rare | The event is considered highly unlikely. |
-| 2 | Unlikely | The event is not expected under normal circumstances. |
-| 3 | Possible | The event could reasonably occur. |
+| 1 | Rare | The event is unlikely to occur under normal circumstances. |
+| 2 | Unlikely | The event could occur but is not expected frequently. |
+| 3 | Possible | The event may occur under certain circumstances. |
 | 4 | Likely | The event is expected to occur in some circumstances. |
-| 5 | Almost Certain | The event is expected to occur frequently or repeatedly. |
+| 5 | Almost Certain | The event is highly likely to occur or recur. |
 
-### Impact
+### 3.2 Impact Scale
 
 | Score | Rating | Description |
 |---|---|---|
-| 1 | Insignificant | Minimal effect on financial reporting or business operations. |
-| 2 | Minor | Limited effect requiring routine correction. |
-| 3 | Moderate | Meaningful disruption or potential financial reporting errors. |
-| 4 | Major | Significant potential effect on financial reporting or critical systems. |
-| 5 | Severe | Potentially extensive financial reporting consequences or major operational disruption. |
+| 1 | Insignificant | Minimal operational or financial reporting impact. |
+| 2 | Minor | Limited disruption or low potential impact. |
+| 3 | Moderate | Noticeable operational impact or potential reporting consequences. |
+| 4 | Major | Significant disruption or potential effect on financial reporting. |
+| 5 | Severe | Potentially substantial disruption or material financial reporting consequences. |
 
-The inherent risk score will be calculated as:
+### 3.3 Risk Scoring Formula
+
+The inherent risk score was calculated as:
 
 **Inherent Risk Score = Likelihood × Impact**
 
-Scores will range from 1 to 25. Risk-rating thresholds will be documented in the Risk and Control Matrix workpaper before they are applied.
+The maximum possible score is 25.
 
-These ratings are illustrative portfolio assessment criteria, not a substitute for evaluating the actual severity of a financial reporting control deficiency.
+### 3.4 Risk Rating Thresholds
 
-## 4. Control Identification and Mapping
+| Score | Risk Rating |
+|---|---|
+| 1–4 | Low |
+| 5–9 | Moderate |
+| 10–16 | High |
+| 17–25 | Critical |
 
-Controls will be documented in a Risk and Control Matrix (RCM).
+These thresholds were applied consistently in the Risk and Control Matrix.
 
-Each control record will identify:
+The ratings represent preliminary inherent risk assessments before considering the effectiveness of controls. They are not formal assessments of residual risk or financial statement materiality.
 
+## 4. Risk and Control Matrix Development
+
+A Risk and Control Matrix (RCM) was developed to connect identified IT risks with corresponding control activities and audit procedures.
+
+Each documented risk and control relationship included:
+
+- Risk ID.
 - Control ID.
 - ITGC domain.
-- Associated financial reporting risk.
+- Risk description.
 - Control objective.
-- Control description.
-- Control owner.
+- Control activity.
+- Control owner or responsible function.
 - Control frequency.
-- Control type.
-- Preventive or detective classification.
-- Relevant COBIT 2019 mapping.
-- Audit testing procedure.
-- Required evidence.
+- Control classification.
+- Inherent likelihood.
+- Inherent impact.
+- Inherent risk score.
+- Risk rating.
+- COBIT 2019 objective mapping.
+- Related audit test.
 
-Control descriptions and mappings will be reviewed for consistency with the hypothetical business processes and applicable framework guidance.
+The RCM covered 12 controls across Access Management, Change Management, and IT Operations.
 
-## 5. Control Design Evaluation
+## 5. Framework Mapping Methodology
 
-For each selected control, the auditor will determine whether the documented control is capable of addressing the associated risk.
+COBIT 2019 was used as a supporting framework for mapping selected ITGCs to relevant governance and management objectives.
 
-The evaluation will consider:
+The mapping considered the purpose of each control and its relationship to relevant IT governance or management activities.
 
-1. Whether the control addresses the identified risk.
-2. Whether responsibilities are clearly assigned.
-3. Whether the control frequency is appropriate.
-4. Whether required approvals, reviews, or other activities are defined.
-5. Whether exceptions can be identified, investigated, and resolved.
-6. Whether sufficient evidence should exist to demonstrate that the control operated.
+The mapping candidates included:
 
-Design conclusions will be documented separately from operating-effectiveness results.
+- APO07 – Managed Human Resources.
+- APO13 – Managed Security.
+- DSS05 – Managed Security Services.
+- BAI06 – Managed IT Changes.
+- BAI07 – Managed IT Change Acceptance and Transitioning.
+- DSS01 – Managed Operations.
+- DSS02 – Managed Service Requests and Incidents.
+- DSS04 – Managed Continuity.
 
-## 6. Operating-Effectiveness Testing
+The mappings are preliminary objective-level relationships. They do not establish that a control fully implements a particular COBIT objective or practice.
 
-Testing will assess whether selected controls operated as intended during the audit period.
+Detailed practice-level mapping requires validation against the applicable COBIT 2019 guidance.
 
-Procedures may include:
+SOX Section 404 and COSO were used as broader internal-control references. COBIT mapping was not treated as a substitute for regulatory requirements or professional auditing standards.
 
-- Inspection of access requests and approvals.
-- Comparison of HR termination records with access revocation logs.
-- Inspection of periodic access reviews.
-- Examination of change tickets, approvals, and testing records.
-- Review of production deployment logs.
-- Inspection of backup monitoring records.
-- Examination of incident tickets and recovery test results.
+## 6. Control Evaluation Methodology
 
-For each test, the workpaper will document the control objective, population, sample selection approach, procedure performed, evidence examined, exceptions identified, and conclusion.
+Control evaluation considered two distinct dimensions.
 
-No test will be marked as completed unless the corresponding simulated evidence and testing documentation support that conclusion.
+### 6.1 Design Effectiveness
 
-## 7. Sample Selection
+Design effectiveness considers whether a control, if performed as designed, is capable of addressing the relevant risk.
 
-Samples will be selected from clearly defined hypothetical populations.
+The design assessment considers:
 
-The workpapers will identify:
+- Whether the control addresses the identified risk.
+- Whether the control activity is clearly defined.
+- Whether responsibility is assigned.
+- Whether the control frequency is appropriate.
+- Whether the activity produces reviewable evidence.
+- Whether exceptions are escalated and resolved.
 
+### 6.2 Operating Effectiveness
+
+Operating effectiveness considers whether a control operated as intended during the audit period.
+
+The simulated testing examined:
+
+- Whether the control activity was performed.
+- Whether required approvals or reviews were documented.
+- Whether control activities occurred within the required timeframe.
+- Whether exceptions were investigated.
+- Whether corrective actions were documented.
+- Whether supporting evidence was available.
+
+The completed testing workpapers primarily document simulated operating-effectiveness testing. They do not establish a complete independent design-effectiveness conclusion.
+
+## 7. Audit Population and Sampling Methodology
+
+Audit populations were defined according to the control activity and relevant audit period.
+
+The sampling summary documented:
+
+- Test ID.
+- Control ID.
+- ITGC domain.
 - Population description.
 - Population size.
-- Audit period covered.
 - Sample size.
-- Selection method.
-- Sample identifiers.
-- Rationale for selection.
+- Sample selection method.
+- Selection rationale.
+- Audit period.
+- Testing objective.
 
-Sample sizes will be chosen for the purposes of the simulation and will be justified based on the control frequency, risk, and testing objective.
+### 7.1 Sampling Methods
 
-The project will not present illustrative sample sizes as mandatory professional auditing requirements or claim that a small sample automatically supports a conclusion about an entire population.
+The project used three approaches:
 
-## 8. Evidence Evaluation
+**Risk-Based Judgmental Selection**
 
-Evidence will be assessed for relevance, reliability, completeness, and consistency with the audit procedure.
+Samples were selected based on the nature of the control, identified risk, and relevance to the audit objective.
 
-Examples include:
+This approach was applied to user access requests, privileged accounts, employee terminations, production changes, emergency changes, processing jobs, and financial system incidents.
 
-- Approved access requests.
-- HR termination records.
-- User and privileged access listings.
-- Change tickets and deployment logs.
-- Test results.
-- Backup and job execution logs.
-- Incident records.
-- Recovery test documentation.
+**Monthly Coverage**
 
-The evidence register will assign a unique identifier to each evidence item and link it to the relevant control and test.
+One backup execution was selected from each month of the audit period to obtain coverage across the year.
 
-All evidence created for this project will be identified as simulated.
+**Complete-Population Testing**
 
-## 9. Exception Evaluation
+All four quarterly user access reviews and both scheduled recovery tests were selected because their populations were limited.
 
-An exception occurs when the evidence examined does not demonstrate that the control operated according to its documented requirements.
+### 7.2 Sample Size Summary
 
-Examples include:
+| ITGC Domain | Sample Items |
+|---|---:|
+| Access Management | 34 |
+| Change Management | 38 |
+| IT Operations | 36 |
+| **Total** | **108** |
 
-- Access granted without required approval.
-- Delayed removal of terminated employee access.
-- Production changes implemented without required authorization.
-- Missing evidence of required testing.
-- Backup failures without documented investigation.
+The sample sizes were selected for this educational simulation. They are illustrative rather than prescribed professional auditing sample sizes.
 
-For each exception, the auditor will document the condition, expected control requirement, potential cause, risk implications, and recommended corrective action.
+### 7.3 Sampling Limitations
 
-An exception will not automatically be treated as a material weakness. The significance of a deficiency requires a separate evaluation of its likelihood, potential magnitude, and relationship to financial reporting controls.
+The workpapers record aggregate sample sizes and test-level conclusions. Individual sample identifiers and item-by-item results are not retained.
 
-## 10. Findings and Remediation
+The evidence register links supporting records to their related tests, not to individual sample items.
 
-Each finding will contain:
+The sampling methodology is judgmental or coverage-based rather than statistical. The documented results do not provide statistical assurance or support statistical projection to the full populations.
+
+## 8. Audit Evidence Evaluation
+
+The evidence register was used to document supporting records obtained for the simulated control tests.
+
+Each evidence record included:
+
+- Evidence ID.
+- Related test ID.
+- Control ID.
+- Evidence description.
+- Evidence source.
+- Period covered.
+- Date obtained.
+- Evidence format.
+- Completeness assessment.
+- Reliability assessment.
+- Confidentiality classification.
+- Auditor notes.
+
+### 8.1 Evidence Completeness
+
+Evidence completeness was assessed based on whether the available records sufficiently supported the specific testing objective.
+
+The assessment distinguished complete evidence for the selected sample from partial evidence.
+
+### 8.2 Evidence Reliability
+
+Evidence reliability was assessed based on the simulated source, nature, and documentation of the records.
+
+The evidence register used High and Medium reliability assessments.
+
+These are simulated audit documentation judgments, not independent verification of actual system-generated records.
+
+### 8.3 Evidence Traceability
+
+Evidence IDs were included in the testing workpapers to connect each test to the corresponding evidence register entries.
+
+The traceability structure was:
+
+**Risk and Control Matrix → Test Workpaper → Evidence Register → Finding → Remediation Plan**
+
+This structure supports navigation between related audit documents.
+
+## 9. Operating-Effectiveness Testing
+
+The audit testing workpapers documented the procedures performed for the 12 selected controls.
+
+Each test recorded:
+
+- Test ID.
+- Control ID.
+- Control description.
+- Testing objective.
+- Audit procedure.
+- Population.
+- Sample size.
+- Sample selection method.
+- Evidence IDs.
+- Evidence reviewed.
+- Test result.
+- Exception identified.
+- Auditor conclusion.
+
+### 9.1 Passing Results
+
+A test was recorded as Pass where the simulated evidence supported the expected control activity for the samples tested.
+
+### 9.2 Failing Results
+
+A test was recorded as Fail where one or more exceptions were identified in the simulated sample.
+
+A failed test indicates an exception in the sample examined. It does not, by itself, establish the overall severity of a SOX deficiency or prove that a financial statement misstatement occurred.
+
+## 10. Exception Evaluation
+
+Exceptions were documented when the simulated evidence did not demonstrate that the expected control activity had been performed or sufficiently documented.
+
+The evaluation considered:
+
+- The nature of the exception.
+- The control objective.
+- The number of exceptions identified.
+- The availability and quality of supporting evidence.
+- Potential consequences for financial reporting.
+- Whether additional investigation was necessary.
+
+Where evidence of a review or approval was missing, the finding was framed as a documentation or evidence gap unless the available facts established that the activity itself had not occurred.
+
+## 11. Findings Development
+
+The findings log documented six preliminary findings.
+
+Each finding included:
 
 - Finding ID.
-- Related control ID.
-- Condition identified.
-- Expected control requirement.
-- Root cause, where supported by the evidence.
+- Related test ID.
+- Control ID.
+- ITGC domain.
+- Finding title.
+- Condition.
+- Criteria.
 - Risk and potential impact.
-- Recommended remediation.
+- Root cause.
+- Root cause status.
+- Recommendation.
+- Preliminary severity.
+- SOX deficiency classification.
+- Management response status.
+
+### 11.1 Root Cause Assessment
+
+Root causes were recorded as undetermined where the available simulated evidence did not establish why the exception occurred.
+
+Any proposed explanation requires validation with management and supporting evidence before it can be treated as a confirmed root cause.
+
+### 11.2 Preliminary Severity Assessment
+
+Preliminary severity ratings were assigned to communicate the relative concern associated with each finding.
+
+These ratings are portfolio assessment judgments. They do not represent formal SOX deficiency classifications.
+
+### 11.3 SOX Deficiency Classification
+
+A formal evaluation of a SOX deficiency requires consideration of:
+
+- The likelihood of a control failure resulting in a misstatement.
+- The potential magnitude of the misstatement.
+- The nature and extent of affected financial reporting processes.
+- Relevant compensating controls.
+- Other circumstances affecting the likelihood and magnitude of a potential misstatement.
+
+The project does not formally classify any finding as a significant deficiency or material weakness.
+
+## 12. Remediation Planning
+
+A remediation plan was developed for each of the six preliminary findings.
+
+Each action documented:
+
+- Related finding ID.
+- Corrective action.
 - Responsible owner.
+- Supporting team.
+- Priority.
 - Target completion date.
+- Key milestones.
+- Required closure evidence.
+- Validation procedure.
 - Remediation status.
 
-Where the cause has not been established, it will be identified as undetermined rather than presented as a confirmed fact.
+The corrective actions were designed to address the documented control exceptions.
 
-Remediation recommendations will be specific, actionable, and linked to the identified control deficiency.
+### 12.1 Remediation Validation
 
-## 11. Reporting
+Closure requires supporting evidence demonstrating that the corrective action was implemented.
 
-The final report will summarize:
+The validation procedure should assess whether the corrective action addresses the original exception and whether the revised control operates effectively.
 
-- Audit objectives and scope.
-- Methodology and limitations.
-- Controls tested.
+Management confirmation alone is not sufficient evidence of remediation closure.
+
+The remediation plan reflects the simulated status as of the January 31, 2026 report date. Its target dates are historical scenario dates, not statements of current completion.
+
+## 13. Management Responses
+
+Simulated management responses were documented for all six findings.
+
+The responses recorded management agreement with the findings and the associated corrective actions.
+
+All six responses were recorded as Open in the simulated reporting period.
+
+These responses are fictional and do not represent actual statements made by management of a real organization.
+
+## 14. Audit Reporting
+
+The final simulated audit report summarized:
+
+- Audit background and objectives.
+- Scope and methodology.
+- ITGC domains and controls tested.
+- Sampling approach.
 - Testing results.
-- Exceptions and deficiencies.
-- Risk implications.
-- Recommendations.
-- Management remediation actions.
-- Overall conclusion and limitations.
+- Identified exceptions.
+- Preliminary findings.
+- Remediation recommendations.
+- Limitations and disclaimer.
 
-Conclusions will reflect the evidence examined and the defined scope of the simulation.
+The report communicated the six passing tests and six failing tests without presenting the results as a formal audit opinion or certification.
 
-## 12. Quality and Documentation Requirements
+## 15. Quality and Documentation Standards
 
-The project will maintain the following documentation standards:
+The completed workpapers were structured to support consistency and traceability.
 
-1. Every control must have a unique identifier.
-2. Every test must reference the relevant control.
-3. Every evidence item must have a unique evidence identifier.
-4. Every exception must link to its supporting test and evidence.
-5. Every finding must reference the relevant control and exception.
-6. Remediation actions must link to the associated finding.
-7. Test results must agree with the documented evidence.
-8. All simulated information must be clearly identified as fictional.
+The documentation approach emphasized:
 
-## 13. Framework References
+- Consistent control and test identifiers.
+- Consistent evidence references.
+- Reconciliation of sample totals.
+- Alignment between testing exceptions and findings.
+- Alignment between findings and remediation actions.
+- Clear distinction between observed conditions and assumed root causes.
+- Clear identification of preliminary severity ratings.
+- Accurate disclosure of simulation limitations.
 
-The methodology draws on concepts relevant to:
+## 16. Methodology Limitations
 
-- The Sarbanes–Oxley Act and internal control over financial reporting.
-- COBIT 2019 governance and management objectives.
-- The COSO Internal Control—Integrated Framework.
-- Applicable PCAOB auditing standards where relevant to the discussion of internal control over financial reporting.
+This methodology was applied to a fictional educational scenario.
 
-The project will distinguish regulatory requirements from framework guidance and illustrative audit procedures.
+All populations, samples, evidence records, test results, exceptions, findings, management responses, and remediation activities are simulated.
+
+The project does not constitute an actual audit engagement, independent audit opinion, certification, or assurance conclusion.
+
+The documented sample sizes do not provide statistical assurance. Individual sample-level identifiers and item-by-item test results are not retained.
+
+The workpapers primarily demonstrate simulated operating-effectiveness testing and do not establish a complete independent design-effectiveness assessment.
+
+## 17. References
+
+- Sarbanes–Oxley Act of 2002, Section 404.
+- COSO, Internal Control – Integrated Framework.
+- ISACA, COBIT 2019 Framework.
+- Applicable PCAOB standards relevant to audits of internal control over financial reporting.
+
+These references provide the conceptual and regulatory context for the simulated audit methodology. Their inclusion does not imply that this portfolio project was conducted under a formal professional audit engagement.
