@@ -1,63 +1,55 @@
-# SOX ITGC Audit: Framework Mapping
+# Framework and Regulatory Mapping
 
-## 1. Purpose
+## 1. Introduction
 
-This document explains the frameworks and regulatory references used in the simulated SOX IT General Controls (ITGC) audit of Apex Financial Services, Inc.
+This document describes the regulatory and framework references applied in the simulated SOX IT General Controls (ITGC) audit of Apex Financial Services, Inc.
 
-The purpose is to distinguish legal and regulatory requirements from governance frameworks and illustrative audit practices.
+The project uses the Sarbanes–Oxley Act (SOX), the COSO Internal Control – Integrated Framework, and COBIT 2019 to provide context for evaluating selected IT controls supporting financial reporting.
 
-All mappings will be validated against the relevant framework guidance before the project is finalized.
+These references serve different purposes. SOX provides the regulatory context, COSO provides broader internal-control principles, and COBIT 2019 provides governance and management objectives relevant to enterprise information and technology.
 
-## 2. Sarbanes-Oxley Act (SOX)
+## 2. Sarbanes–Oxley Act (SOX)
 
-**Purpose:** Establishes requirements relating to corporate accountability, financial reporting, and internal control over financial reporting.
+### Purpose
 
-### Relevance to This Project
+The Sarbanes–Oxley Act of 2002 established requirements intended to strengthen corporate accountability, financial reporting, and internal controls over financial reporting for applicable public companies.
 
-Section 404 is particularly relevant to the assessment of internal control over financial reporting.
+### Section 404
 
-IT controls may be relevant when they support the reliability of financial reporting systems, including systems that process, maintain, or report financial information.
+Section 404 is particularly relevant to internal control over financial reporting.
 
-### Application in the Audit
-
-The project will assess selected IT general controls that may affect the reliability of financial reporting, including:
-
-- User access management.
-- Privileged access.
-- IT change management.
-- IT operations.
-
-The project does not assume that every IT control is automatically relevant to SOX. Relevance depends on the systems, risks, and controls associated with financial reporting.
-
-## 3. COBIT 2019
-
-**Purpose:** Provides a framework for the governance and management of enterprise information and technology.
+It addresses management's responsibility for assessing and reporting on internal control over financial reporting and the applicable external auditor attestation requirements.
 
 ### Relevance to This Project
 
-COBIT 2019 provides governance and management objectives that can help structure IT control assessment and connect control activities to broader IT governance and risk management practices.
+The simulated audit focused on IT General Controls that support the reliability of financial reporting systems.
 
-### Preliminary Mapping Candidates
+The controls examined included:
 
-| ITGC Area | COBIT 2019 Objective | Potential Relevance |
-|---|---|---|
-| Access Management | APO07 — Managed Human Resources | User responsibilities and personnel-related access processes |
-| Access Management | DSS05 — Managed Security Services | Security controls, including access protection |
-| Change Management | BAI06 — Managed IT Changes | Management and control of IT changes |
-| Change Management | BAI07 — Managed IT Change Acceptance and Transitioning | Testing, acceptance, and transition of changes |
-| IT Operations | DSS01 — Managed Operations | Operational procedures and monitoring |
-| IT Operations | DSS02 — Managed Service Requests and Incidents | Incident handling and resolution |
-| IT Operations | DSS04 — Managed Continuity | Continuity and recovery arrangements |
+- User access authorization.
+- Privileged access management.
+- Terminated employee access removal.
+- Periodic user access reviews.
+- Production change authorization.
+- Change testing.
+- Production deployment restrictions.
+- Emergency change reviews.
+- Backup monitoring.
+- Financial processing job monitoring.
+- Incident management.
+- Recovery arrangements.
 
-These are preliminary objective-level mapping candidates. The final control matrix must identify and validate the relevant practices within each objective rather than assuming that an objective title alone proves a precise mapping.
+These ITGCs were selected because weaknesses in the supporting technology environment could affect the reliability of financial reporting applications and data.
 
-## 4. COSO Internal Control-Integrated Framework
+The project does not provide a legal determination or formal conclusion about SOX compliance.
 
-**Purpose:** Provides a framework for designing, implementing, and evaluating internal control.
+## 3. COSO Internal Control – Integrated Framework
 
-### Relevance to This Project
+### Purpose
 
-COSO provides the broader internal control context for financial reporting. It addresses five components:
+The COSO Internal Control – Integrated Framework provides principles for designing, implementing, and evaluating internal control systems.
+
+It is organized around five components:
 
 1. Control Environment.
 2. Risk Assessment.
@@ -65,49 +57,105 @@ COSO provides the broader internal control context for financial reporting. It a
 4. Information and Communication.
 5. Monitoring Activities.
 
-### Application in the Audit
+### Relevance to This Project
 
-The project will consider how selected IT controls support the reliability of financial reporting and the wider internal control environment.
+The COSO framework provides the broader internal-control context for the audit.
 
-COSO will not be treated as a technical ITGC checklist.
-
-## 5. Relationship Between the References
-
-The references serve different purposes:
-
-| Reference | Role in the Project |
+| COSO Component | Application in This Project |
 |---|---|
-| SOX | Provides the legal and regulatory context. |
-| COSO | Provides the broader internal control framework. |
-| COBIT 2019 | Helps structure IT governance and control objectives. |
-| Audit methodology | Defines how the simulated controls will be assessed and tested. |
+| Control Environment | Consideration of accountability, assigned control responsibilities, and management oversight. |
+| Risk Assessment | Identification and assessment of IT risks affecting financial reporting. |
+| Control Activities | Evaluation of access, change management, and IT operations controls. |
+| Information and Communication | Documentation of control evidence, audit findings, and management responses. |
+| Monitoring Activities | Consideration of periodic reviews, exception monitoring, remediation, and follow-up validation. |
 
-A control may be relevant to more than one reference, but the project will document the reason for each mapping.
+The mapping is conceptual and does not represent a complete COSO component or principle assessment.
 
-## 6. Mapping and Validation Rules
+## 4. COBIT 2019
 
-Before a COBIT mapping is finalized:
+### Purpose
 
-1. Identify the control objective and associated financial reporting risk.
-2. Identify the relevant COBIT 2019 governance or management objective.
-3. Review the associated practices to determine whether they directly support the control activity.
-4. Document the mapping rationale.
-5. Avoid assigning a mapping solely because an objective has a similar title.
-6. Distinguish framework guidance from a mandatory SOX requirement.
+COBIT 2019 provides a framework for the governance and management of enterprise information and technology.
 
-Where an exact practice mapping has not been verified, it will remain provisional until validated.
+It organizes governance and management activities into objectives that support the alignment of IT with enterprise goals, management of technology-related risks, and delivery of value.
 
-## 7. Limitations
+### Relevance to This Project
 
-This document provides a preliminary mapping approach for an educational simulation.
+COBIT 2019 was used to identify preliminary objective-level relationships between the selected ITGCs and relevant governance or management activities.
 
-It does not establish that the fictional company complies with SOX, COBIT, or COSO. Framework mappings are intended to support the audit workpapers and will be refined as individual controls are developed.
+The selected objectives are listed below.
 
-## 8. Official References
+| COBIT Objective | Objective Name | Relevance to the Audit |
+|---|---|---|
+| APO07 | Managed Human Resources | Supports personnel-related responsibilities and access processes. |
+| APO13 | Managed Security | Supports information security management activities. |
+| DSS05 | Managed Security Services | Supports security services and logical access protection. |
+| BAI06 | Managed IT Changes | Supports authorization and management of IT changes. |
+| BAI07 | Managed IT Change Acceptance and Transitioning | Supports testing, acceptance, and transition of changes. |
+| DSS01 | Managed Operations | Supports operational procedures and monitoring. |
+| DSS02 | Managed Service Requests and Incidents | Supports incident handling and resolution. |
+| DSS04 | Managed Continuity | Supports continuity planning and recovery arrangements. |
 
-- **U.S. Securities and Exchange Commission:** Sarbanes–Oxley Act and financial reporting resources — https://www.sec.gov/
-- **PCAOB:** Auditing standards and resources concerning audits of internal control over financial reporting — https://pcaobus.org/
-- **ISACA:** COBIT framework resources — https://www.isaca.org/resources/cobit
-- **COSO:** Internal Control—Integrated Framework — https://www.coso.org/
+## 5. ITGC-to-COBIT Objective Mapping
 
-Consult the applicable official publications when validating detailed requirements and framework mappings.
+The following table summarizes the preliminary mapping relationships used in the project.
+
+| ITGC Control | Control Area | COBIT Objective | Mapping Rationale |
+|---|---|---|---|
+| ITGC-AC-01 | New User Access | DSS05 | Relates to logical access protection and security services. |
+| ITGC-AC-02 | Privileged Access | DSS05 | Relates to management of security and privileged access. |
+| ITGC-AC-02 | Privileged Access | APO13 | Relates to information security management. |
+| ITGC-AC-03 | Terminated User Access | APO07 | Relates to personnel lifecycle responsibilities. |
+| ITGC-AC-03 | Terminated User Access | DSS05 | Relates to logical access protection and access revocation. |
+| ITGC-AC-04 | User Access Reviews | DSS05 | Relates to ongoing logical access security. |
+| ITGC-CH-01 | Change Authorization | BAI06 | Relates to controlled management and authorization of IT changes. |
+| ITGC-CH-02 | Change Testing | BAI07 | Relates to testing and acceptance before production transition. |
+| ITGC-CH-03 | Production Deployment Access | BAI06 | Relates to controlled implementation of production changes. |
+| ITGC-CH-03 | Production Deployment Access | DSS05 | Relates to privileged production access security. |
+| ITGC-CH-04 | Emergency Changes | BAI06 | Relates to governance and review of emergency changes. |
+| ITGC-OP-01 | Backup Monitoring | DSS01 | Relates to routine operational monitoring. |
+| ITGC-OP-01 | Backup Monitoring | DSS04 | Relates to backup and recovery capabilities for continuity. |
+| ITGC-OP-02 | Financial Processing Jobs | DSS01 | Relates to monitoring of operational processing activities. |
+| ITGC-OP-03 | Incident Management | DSS02 | Relates to incident logging, investigation, and resolution. |
+| ITGC-OP-04 | Recovery Arrangements | DSS04 | Relates to business continuity and recovery testing. |
+
+The detailed mapping rationale and validation status are maintained in `cobit_control_mapping.csv`.
+
+## 6. Mapping Limitations
+
+The mappings in this project are preliminary objective-level relationships.
+
+A relationship between an ITGC and a COBIT objective indicates conceptual relevance. It does not demonstrate that the control fully implements the objective or satisfies every related COBIT practice.
+
+A detailed assessment would require review of the applicable COBIT 2019 governance and management practices, associated activities, and enterprise-specific implementation evidence.
+
+The mappings are not a certification, maturity assessment, or formal COBIT compliance determination.
+
+## 7. Relationship Between SOX, COSO, and COBIT
+
+The three references have complementary roles in the simulated audit:
+
+| Reference | Primary Role | Application |
+|---|---|---|
+| SOX Section 404 | Regulatory context | Internal control over financial reporting. |
+| COSO Internal Control – Integrated Framework | Internal-control framework | Broader principles for evaluating internal control. |
+| COBIT 2019 | IT governance and management framework | Mapping selected IT controls to relevant IT governance and management objectives. |
+
+Together, these references provide context for the assessment of ITGCs supporting financial reporting.
+
+They are not interchangeable, and the use of one does not establish compliance with the others.
+
+## 8. Conclusion
+
+The project used SOX Section 404 as its regulatory context, COSO as its broader internal-control reference, and COBIT 2019 as its IT governance and management mapping framework.
+
+The resulting mappings connect the 12 selected ITGCs to relevant COBIT objectives while preserving the distinction between conceptual framework alignment and formal compliance assessment.
+
+## 9. References
+
+- Sarbanes–Oxley Act of 2002, Section 404.
+- COSO, Internal Control – Integrated Framework.
+- ISACA, COBIT 2019 Framework: Introduction and Methodology.
+- ISACA, COBIT 2019 Framework: Governance and Management Objectives.
+
+This document supports the educational portfolio simulation and does not constitute an actual audit opinion, certification, or assurance conclusion.
