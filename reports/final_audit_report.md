@@ -1,174 +1,305 @@
-# Apex Financial Services, Inc.
-# SOX IT General Controls (ITGC) Audit Report
+# FINAL SIMULATED AUDIT REPORT
 
+## SOX IT General Controls (ITGC) Audit
+
+**Organization:** Apex Financial Services, Inc. (Fictional)  
 **Audit Period:** January 1 – December 31, 2025  
 **Report Date:** January 31, 2026  
-**Prepared By:** IT Audit Function  
 **Audit Type:** Simulated Risk-Based SOX ITGC Audit  
-**Framework References:** SOX Section 404, COSO Internal Control – Integrated Framework, COBIT 2019
+**Prepared By:** IT Auditor (Portfolio Simulation)  
+**Primary Framework Reference:** COBIT 2019  
+**Regulatory Context:** Sarbanes–Oxley Act, Section 404  
+**Supporting Framework:** COSO Internal Control – Integrated Framework
 
 ---
 
 ## 1. Executive Summary
 
-This report presents the results of a simulated risk-based audit of Information Technology General Controls (ITGCs) at Apex Financial Services, Inc., a fictional publicly traded U.S. financial services company.
+This report presents the results of a simulated, risk-based audit of selected IT General Controls (ITGCs) supporting internal control over financial reporting at Apex Financial Services, Inc., a fictional publicly traded U.S. financial services company.
 
-The audit was designed to evaluate whether selected IT controls supporting financial reporting were appropriately designed and operating effectively during the period January 1 through December 31, 2025.
+The audit evaluated 12 selected ITGCs across three domains:
 
-The assessment covered three primary ITGC domains:
+1. Access Management.
+2. Change Management.
+3. IT Operations.
 
-- Access Management
-- Change Management
-- IT Operations
+The audit period covered January 1 through December 31, 2025. The simulated audit work included risk assessment, control documentation, COBIT 2019 objective-level mapping, audit sampling, evidence evaluation, operating-effectiveness testing, exception identification, findings development, and remediation planning.
 
-A total of 12 controls were included in the Risk and Control Matrix (RCM). Audit procedures were documented for all 12 controls, using a combined sample of 108 test items across the three domains.
+A total of 108 sample items were documented across the 12 control tests.
 
-Based on the simulated test results:
+The simulated testing results were:
 
-- 6 controls passed the documented sample tests.
-- 6 controls had exceptions and were classified as failed.
-- 6 preliminary audit findings were documented.
-- 6 remediation actions were proposed.
+| Audit Result | Number |
+|---|---:|
+| Controls tested | 12 |
+| Controls passing sample tests | 6 |
+| Controls with identified exceptions | 6 |
+| Total sample items documented | 108 |
+| Preliminary audit findings | 6 |
+| Remediation actions | 6 |
 
-The exceptions primarily involved incomplete privileged access reviews, insufficient change testing documentation, missing emergency change reviews, incomplete investigation of failed processing jobs, and an unresolved recovery-time objective failure.
+The exceptions related to incomplete privileged access reviews, missing application owner sign-off, insufficient evidence of change testing, missing emergency change retrospective review, incomplete investigation of failed financial processing jobs, and an unresolved recovery-time objective failure.
 
-These results indicate opportunities to strengthen control execution, evidence retention, monitoring, and remediation oversight.
+The six findings were documented with preliminary severity ratings and corrective action recommendations. Simulated management responses indicated agreement with the findings and corrective actions, with all six remediation actions recorded as Open at the report date.
 
-The findings are preliminary. Their severity and potential financial reporting implications require further assessment before any conclusion about significant deficiencies or material weaknesses could be reached.
+The results represent a simulated portfolio exercise. They do not constitute an actual SOX audit opinion, independent assurance conclusion, or formal determination of significant deficiencies or material weaknesses.
 
-## 2. Background and Business Scenario
+## 2. Background
 
-Apex Financial Services, Inc. is a fictional financial services organization operating in the United States.
+Apex Financial Services, Inc. is a fictional publicly traded financial services organization that relies on financial applications, databases, and supporting IT infrastructure to process transactions and prepare financial reports.
 
-For this engagement, the organization is assumed to rely on financial applications, databases, infrastructure, and supporting IT services to process, maintain, and report financial information.
+The organization depends on effective technology controls to support the security, availability, and integrity of financial reporting systems and data.
 
-Because these systems support financial reporting, weaknesses in access security, production change management, or IT operations could affect the reliability, completeness, or accuracy of financial information.
+The simulated audit focused on selected IT General Controls that support the technology environment used in financial reporting.
 
-The audit scenario was developed to demonstrate how an IT auditor can assess ITGCs using a structured, risk-based approach.
-
-All company information, systems, employees, evidence, audit samples, results, findings, and remediation activities in this project are simulated.
+The assessment considered risks associated with unauthorized access, inappropriate production changes, incomplete financial processing, inadequate incident handling, and insufficient recovery arrangements.
 
 ## 3. Audit Objectives
 
-The primary objectives were to:
+The audit objectives were to:
 
-1. Assess whether access to financial systems was authorized, appropriate, and periodically reviewed.
-2. Determine whether production changes were authorized, tested, and appropriately controlled.
-3. Evaluate whether critical IT operations were monitored and exceptions were investigated.
-4. Identify control weaknesses that could affect systems supporting financial reporting.
-5. Document control exceptions and their potential business and financial reporting implications.
-6. Recommend corrective actions to strengthen the IT control environment.
+- Identify IT risks relevant to financial reporting.
+- Evaluate selected IT General Controls supporting financial systems.
+- Document control objectives and related activities.
+- Map selected ITGCs to relevant COBIT 2019 governance and management objectives.
+- Define audit populations and document sample selection.
+- Perform simulated operating-effectiveness testing.
+- Evaluate supporting audit evidence.
+- Identify and document control exceptions.
+- Develop preliminary findings and recommendations.
+- Establish remediation actions and document simulated management responses.
+- Communicate the results and limitations through a structured audit report.
 
 ## 4. Audit Scope
 
-The audit covered selected ITGCs supporting financial reporting during the 2025 audit period.
+The audit covered 12 selected IT General Controls across three domains.
 
 ### 4.1 Access Management
 
-The assessment covered:
+The Access Management assessment covered four controls:
 
-- New user access authorization.
-- Privileged account restrictions and periodic reviews.
-- Timely removal of terminated employee access.
-- Periodic user access reviews.
+| Control ID | Control Description |
+|---|---|
+| ITGC-AC-01 | New user access requires documented approval before provisioning. |
+| ITGC-AC-02 | Privileged accounts are restricted to approved personnel and reviewed periodically. |
+| ITGC-AC-03 | HR termination notifications trigger timely account disablement. |
+| ITGC-AC-04 | Application owners perform periodic user access reviews. |
+
+The testing assessed authorization before provisioning, privileged account reviews, timely access removal, and periodic application owner reviews.
 
 ### 4.2 Change Management
 
-The assessment covered:
+The Change Management assessment covered four controls:
 
-- Authorization of production changes.
-- Testing and approval before deployment.
-- Restrictions on production deployment privileges.
-- Documentation and retrospective review of emergency changes.
+| Control ID | Control Description |
+|---|---|
+| ITGC-CH-01 | Production changes require documented approval before implementation. |
+| ITGC-CH-02 | Changes undergo documented testing and review before production deployment. |
+| ITGC-CH-03 | Production deployment permissions are restricted to authorized personnel. |
+| ITGC-CH-04 | Emergency changes are documented and reviewed after implementation. |
+
+The testing assessed change authorization, testing evidence, production deployment permissions, and emergency change retrospective reviews.
 
 ### 4.3 IT Operations
 
-The assessment covered:
+The IT Operations assessment covered four controls:
 
-- Monitoring of financial system backups.
-- Monitoring of scheduled financial processing jobs.
-- Incident management.
-- Business continuity and recovery testing.
+| Control ID | Control Description |
+|---|---|
+| ITGC-OP-01 | Backup jobs are monitored and failures are investigated and resolved. |
+| ITGC-OP-02 | Critical financial processing jobs are monitored and failed executions investigated. |
+| ITGC-OP-03 | Incidents affecting financial systems are logged, prioritized, assigned, and tracked through resolution. |
+| ITGC-OP-04 | Recovery arrangements are documented and tested periodically. |
 
-### 4.4 Out of Scope
+The testing assessed backup monitoring, financial processing job monitoring, incident management, and recovery arrangements.
 
-The engagement did not constitute a complete financial statement audit, enterprise-wide cybersecurity assessment, penetration test, or independent evaluation of every IT system and application.
+### 4.4 Out-of-Scope Activities
 
-The assessment also did not independently determine the organization's overall SOX compliance status.
+The audit did not include:
 
-## 5. Frameworks and Audit Criteria
+- IT Application Control (ITAC) testing.
+- Testing of actual company systems or production environments.
+- Examination of actual financial statements or transaction records.
+- An independent external audit.
+- Formal SOX compliance certification.
+- Statistical projection of sample results to full populations.
 
-The assessment referenced the following frameworks and regulatory requirements.
+## 5. Frameworks and References
 
-**Sarbanes-Oxley Act (SOX), Section 404**
+### 5.1 Sarbanes–Oxley Act, Section 404
 
-Provided the regulatory context for evaluating internal control over financial reporting.
+SOX Section 404 provided the regulatory context for evaluating selected IT controls relevant to internal control over financial reporting.
 
-**COSO Internal Control – Integrated Framework**
+The audit considered the relationship between IT General Controls and the reliability of financial reporting systems.
 
-Provided a broader internal control perspective, including control activities, risk assessment, monitoring, information and communication, and the control environment.
+### 5.2 COSO Internal Control – Integrated Framework
 
-**COBIT 2019**
+COSO provided the broader internal-control context for considering risk assessment, control activities, information and communication, and monitoring.
 
-Provided governance and management objectives supporting the assessment of IT processes, including:
+### 5.3 COBIT 2019
 
-- APO07 – Managed Human Resources
-- DSS01 – Managed Operations
-- DSS02 – Managed Service Requests and Incidents
-- DSS04 – Managed Continuity
-- DSS05 – Managed Security Services
-- BAI06 – Managed IT Changes
-- BAI07 – Managed IT Change Acceptance and Transitioning
+COBIT 2019 was used as a supporting framework for mapping selected ITGCs to relevant governance and management objectives.
 
-The COBIT mappings in this project are preliminary objective-level mappings. They are supporting references, not a substitute for applicable SOX requirements or a validated practice-level control crosswalk.
+The mapping candidates included:
+
+| COBIT Objective | Objective Name |
+|---|---|
+| APO07 | Managed Human Resources |
+| APO13 | Managed Security |
+| DSS05 | Managed Security Services |
+| BAI06 | Managed IT Changes |
+| BAI07 | Managed IT Change Acceptance and Transitioning |
+| DSS01 | Managed Operations |
+| DSS02 | Managed Service Requests and Incidents |
+| DSS04 | Managed Continuity |
+
+The mappings are preliminary objective-level relationships. They do not establish complete implementation of the objectives or compliance with all related COBIT practices.
 
 ## 6. Audit Methodology
 
-A risk-based audit methodology was used.
+### 6.1 Risk-Based Approach
 
-### 6.1 Risk Assessment
+The audit followed a risk-based approach that prioritized selected ITGCs according to their relevance to financial reporting.
 
-Risks were evaluated using two factors:
-
-- Likelihood: rated from 1 to 5.
-- Impact: rated from 1 to 5.
+Risks were assessed using likelihood and impact scores ranging from 1 to 5.
 
 The inherent risk score was calculated as:
 
 **Inherent Risk Score = Likelihood × Impact**
 
-Risk ratings were assigned as follows:
+The risk rating thresholds were:
 
-| Score | Risk Rating |
+| Score | Rating |
 |---|---|
 | 1–4 | Low |
 | 5–9 | Moderate |
 | 10–16 | High |
 | 17–25 | Critical |
 
-### 6.2 Control Assessment
+The ratings in the Risk and Control Matrix represent preliminary inherent risk assessments before considering control effectiveness. They are not formal assessments of residual risk or financial statement materiality.
 
-The audit considered whether controls were appropriately designed to address identified risks and whether evidence demonstrated that they operated as intended.
+### 6.2 Control Evaluation
 
-Design effectiveness and operating effectiveness are separate assessment considerations. The documented sample results primarily demonstrate simulated operating-effectiveness testing. A complete design-effectiveness conclusion would require additional documented evaluation.
+The methodology distinguished between design effectiveness and operating effectiveness.
+
+Design effectiveness considers whether a control is appropriately designed to address an identified risk.
+
+Operating effectiveness considers whether the control operated as intended during the audit period.
+
+The completed testing workpapers primarily document simulated operating-effectiveness testing. They do not establish a complete independent design-effectiveness conclusion.
 
 ### 6.3 Sample Selection
 
-Samples were selected using risk-based selection, coverage across the audit period, or complete-population testing where appropriate.
+The audit documented populations and sample sizes for each control test.
 
-The audit workpapers document the relevant populations, sample sizes, selection approaches, evidence reviewed, and conclusions.
+The sampling approaches included:
 
-The results should not be interpreted as statistical projections to the entire population.
+- Risk-based judgmental selection.
+- Monthly coverage.
+- Complete-population testing.
 
-### 6.4 Evidence Evaluation
+The sample selection rationale considered the nature of the control, the identified risk, the size of the population, and the audit objective.
 
-Evidence was assessed based on relevance, completeness, reliability, and its ability to support the audit procedure.
+### 6.4 Sample Size Summary
 
-Evidence references were recorded in the Audit Evidence Register.
+| ITGC Domain | Sample Items |
+|---|---:|
+| Access Management | 34 |
+| Change Management | 38 |
+| IT Operations | 36 |
+| **Total** | **108** |
 
-## 7. Audit Testing Summary
+The sample sizes were selected for this educational simulation. They are illustrative and are not represented as statistically sufficient or as prescribed professional auditing sample sizes.
 
-The engagement documented 12 control tests across the three ITGC domains.
+The sampling summary records aggregate sample sizes and test-level conclusions. Individual sample identifiers and item-by-item test results are not retained.
+
+Consequently, the results do not provide statistical assurance or support statistical projection to the full populations.
+
+### 6.5 Evidence Evaluation
+
+The evidence register contains 14 simulated evidence records obtained between January 12 and January 26, 2026.
+
+Each record includes:
+
+- Evidence ID.
+- Related test ID.
+- Control ID.
+- Evidence description.
+- Evidence source.
+- Period covered.
+- Date obtained.
+- Evidence format.
+- Completeness assessment.
+- Reliability assessment.
+- Confidentiality classification.
+- Auditor notes.
+
+Evidence IDs link the supporting records to their respective control tests.
+
+The completeness and reliability assessments are simulated documentation judgments. The evidence was not obtained from or independently verified against an actual organization.
+
+### 6.6 Test Evaluation
+
+A test was recorded as Pass where the simulated evidence supported the expected control activity for the samples examined.
+
+A test was recorded as Fail where one or more exceptions were identified in the simulated sample.
+
+A failed test indicates an exception in the sample examined. It does not automatically establish the overall severity of a SOX deficiency or demonstrate that a financial statement misstatement occurred.
+
+## 7. Audit Testing Results
+
+### 7.1 Access Management Results
+
+| Test ID | Control ID | Sample Size | Result | Exception |
+|---|---|---:|---|---|
+| AM-01 | ITGC-AC-01 | 10 | Pass | None identified |
+| AM-02 | ITGC-AC-02 | 10 | Fail | Two privileged accounts lacked documented quarterly review evidence. |
+| AM-03 | ITGC-AC-03 | 10 | Pass | None identified |
+| AM-04 | ITGC-AC-04 | 4 | Fail | One quarterly review lacked documented application owner sign-off. |
+
+**Access Management conclusion**
+
+Two of the four selected Access Management controls passed the simulated sample tests.
+
+Two controls had exceptions involving privileged access review documentation and application owner sign-off.
+
+The exceptions indicate weaknesses in the evidence available to demonstrate completion of the expected review activities. The available simulated evidence does not independently establish why the documentation was missing.
+
+### 7.2 Change Management Results
+
+| Test ID | Control ID | Sample Size | Result | Exception |
+|---|---|---:|---|---|
+| CM-01 | ITGC-CH-01 | 10 | Pass | None identified |
+| CM-02 | ITGC-CH-02 | 10 | Fail | Two sampled changes lacked documented evidence of completed testing. |
+| CM-03 | ITGC-CH-03 | 10 | Pass | None identified |
+| CM-04 | ITGC-CH-04 | 8 | Fail | One sampled emergency change lacked documented retrospective review evidence. |
+
+**Change Management conclusion**
+
+Two of the four selected Change Management controls passed the simulated sample tests.
+
+Two controls had exceptions involving change testing documentation and emergency change retrospective review.
+
+These exceptions indicate that the available evidence did not demonstrate completion of all expected control activities for the affected samples.
+
+### 7.3 IT Operations Results
+
+| Test ID | Control ID | Sample Size | Result | Exception |
+|---|---|---:|---|---|
+| OP-01 | ITGC-OP-01 | 12 | Pass | None identified |
+| OP-02 | ITGC-OP-02 | 12 | Fail | Two failed processing job executions lacked documented investigation and resolution evidence. |
+| OP-03 | ITGC-OP-03 | 10 | Pass | None identified |
+| OP-04 | ITGC-OP-04 | 2 | Fail | One recovery test identified an unresolved recovery-time objective failure. |
+
+**IT Operations conclusion**
+
+Two of the four selected IT Operations controls passed the simulated sample tests.
+
+Two controls had exceptions involving failed financial processing job investigations and recovery testing.
+
+The recovery exception is particularly relevant because an unresolved recovery-time objective failure may affect the availability of systems supporting financial reporting.
+
+### 7.4 Overall Testing Summary
 
 | ITGC Domain | Controls Tested | Passed | Failed |
 |---|---:|---:|---:|
@@ -177,188 +308,291 @@ The engagement documented 12 control tests across the three ITGC domains.
 | IT Operations | 4 | 2 | 2 |
 | **Total** | **12** | **6** | **6** |
 
-A combined total of 108 sample items was documented across the workpapers.
+The results reflect the simulated test conclusions documented in the workpapers.
 
-### 7.1 Access Management Results
+## 8. Audit Findings
 
-Two of the four access management controls passed their sample tests.
+Six preliminary findings were documented based on the exceptions identified during testing.
 
-The audit identified:
+### Finding F-001: Incomplete Privileged Access Reviews
 
-- Two privileged accounts without documented quarterly access review evidence.
-- One quarterly user access review without documented application owner sign-off.
+**Related Test:** AM-02  
+**Control:** ITGC-AC-02  
+**Domain:** Access Management  
+**Preliminary Severity:** High
 
-The testing highlighted weaknesses in review documentation and oversight of user privileges.
+**Condition**
 
-### 7.2 Change Management Results
+Two privileged accounts lacked documented evidence of quarterly access review.
 
-Two of the four change management controls passed their sample tests.
+**Criteria**
 
-The audit identified:
+Privileged accounts should be restricted to approved personnel and periodically reviewed in accordance with the organization's access management requirements.
 
-- Two production changes without documented evidence of completed testing before deployment.
-- One emergency change without documented retrospective review.
+**Risk and Potential Impact**
 
-These exceptions indicate weaknesses in change testing documentation and emergency change governance.
+Inappropriate or excessive privileged access may remain undetected and could permit unauthorized access to financial systems or changes to financial data.
 
-### 7.3 IT Operations Results
+**Root Cause**
 
-Two of the four IT operations controls passed their sample tests.
+Undetermined based on the available simulated evidence. Management validation is required.
 
-The audit identified:
+**Recommendation**
 
-- Two failed financial processing job executions without documented investigation and resolution evidence.
-- One recovery test that identified an unresolved recovery-time objective failure.
+Perform and document quarterly privileged access reviews, investigate identified exceptions, and retain evidence of reviewer approval and remediation.
 
-These exceptions could affect the availability, completeness, and reliability of systems supporting financial reporting.
+**Management Response**
 
-## 8. Summary of Audit Findings
+Simulated management response indicated agreement with the finding and corrective action. Status: Open as of the report date.
 
-Six preliminary findings were documented.
+### Finding F-002: Missing Application Owner Review Sign-off
 
-| Finding ID | Finding | Domain | Preliminary Severity |
-|---|---|---|---|
-| F-001 | Incomplete Privileged Access Reviews | Access Management | High |
-| F-002 | Missing Application Owner Review Sign-off | Access Management | Moderate |
-| F-003 | Insufficient Evidence of Change Testing | Change Management | High |
-| F-004 | Missing Emergency Change Retrospective Review | Change Management | Moderate |
-| F-005 | Incomplete Investigation of Failed Financial Processing Jobs | IT Operations | High |
-| F-006 | Unresolved Recovery-Time Objective Failure | IT Operations | High |
+**Related Test:** AM-04  
+**Control:** ITGC-AC-04  
+**Domain:** Access Management  
+**Preliminary Severity:** Moderate
 
-### 8.1 F-001: Incomplete Privileged Access Reviews
+**Condition**
 
-**Condition:** Two privileged accounts lacked documented evidence of quarterly access review.
+One quarterly user access review lacked documented application owner sign-off.
 
-**Risk:** Excessive or inappropriate privileged access could remain undetected, increasing the possibility of unauthorized changes to financial systems or data.
+**Criteria**
 
-**Recommendation:** Implement documented quarterly privileged access reviews, require reviewer sign-off, and track identified exceptions through remediation.
+Application owners are expected to complete and document periodic reviews of user access and approve the review results.
 
-**Severity:** High (preliminary).
+**Risk and Potential Impact**
 
-### 8.2 F-002: Missing Application Owner Review Sign-off
+Inappropriate user permissions may remain undetected, potentially affecting the confidentiality and integrity of financial reporting systems.
 
-**Condition:** One quarterly user access review lacked documented application owner sign-off.
+**Root Cause**
 
-**Risk:** Inappropriate user permissions may remain undetected.
+Undetermined based on the available simulated evidence. Management validation is required.
 
-**Recommendation:** Require application owners to formally approve periodic access reviews and retain supporting evidence.
+**Recommendation**
 
-**Severity:** Moderate (preliminary).
+Require application owner sign-off for every scheduled access review and retain evidence of approval and follow-up of identified exceptions.
 
-### 8.3 F-003: Insufficient Evidence of Change Testing
+**Management Response**
 
-**Condition:** Two sampled production changes lacked documented evidence of completed testing before deployment.
+Simulated management response indicated agreement with the finding and corrective action. Status: Open as of the report date.
 
-**Risk:** Untested changes may introduce errors into financial reporting applications.
+### Finding F-003: Insufficient Evidence of Change Testing
 
-**Recommendation:** Enforce documented testing, review, and approval requirements before production deployment.
+**Related Test:** CM-02  
+**Control:** ITGC-CH-02  
+**Domain:** Change Management  
+**Preliminary Severity:** High
 
-**Severity:** High (preliminary).
+**Condition**
 
-### 8.4 F-004: Missing Emergency Change Retrospective Review
+Two sampled production changes lacked documented evidence of completed testing before deployment.
 
-**Condition:** One sampled emergency change lacked documented retrospective review evidence.
+**Criteria**
 
-**Risk:** Emergency changes may introduce unauthorized or untested modifications without appropriate oversight.
+Production changes should undergo appropriate testing and review before implementation in the production environment.
 
-**Recommendation:** Establish mandatory retrospective review requirements, defined completion timelines, and escalation for overdue reviews.
+**Risk and Potential Impact**
 
-**Severity:** Moderate (preliminary).
+Untested or inadequately tested changes may introduce errors into financial reporting applications and affect the accuracy or completeness of financial data.
 
-### 8.5 F-005: Incomplete Investigation of Failed Financial Processing Jobs
+**Root Cause**
 
-**Condition:** Two sampled failed processing job executions lacked documented investigation and resolution evidence.
+Undetermined based on the available simulated evidence. Management validation is required.
 
-**Risk:** Incomplete processing could result in missing or inaccurate financial information.
+**Recommendation**
 
-**Recommendation:** Implement exception tracking, assign investigation owners, and require documented resolution before closure.
+Require documented test plans, test results, and appropriate review before production deployment. Define and document controlled exceptions for emergency changes.
 
-**Severity:** High (preliminary).
+**Management Response**
 
-### 8.6 F-006: Unresolved Recovery-Time Objective Failure
+Simulated management response indicated agreement with the finding and corrective action. Status: Open as of the report date.
 
-**Condition:** One recovery test identified a recovery-time objective failure that remained unresolved at year-end.
+### Finding F-004: Missing Emergency Change Retrospective Review
 
-**Risk:** Extended system downtime could disrupt financial reporting activities and delay access to critical financial data.
+**Related Test:** CM-04  
+**Control:** ITGC-CH-04  
+**Domain:** Change Management  
+**Preliminary Severity:** Moderate
 
-**Recommendation:** Develop a corrective action plan, address identified recovery gaps, and conduct a successful follow-up recovery test.
+**Condition**
 
-**Severity:** High (preliminary).
+One sampled emergency change lacked documented evidence of retrospective review.
+
+**Criteria**
+
+Emergency changes should be documented, justified, and reviewed after implementation in accordance with the organization's change management requirements.
+
+**Risk and Potential Impact**
+
+Changes implemented without appropriate retrospective review may introduce unauthorized or inadequately assessed modifications to financial reporting systems.
+
+**Root Cause**
+
+Undetermined based on the available simulated evidence. Management validation is required.
+
+**Recommendation**
+
+Require retrospective review of emergency changes within a defined timeframe, document the review outcome, and escalate overdue reviews to the responsible change management owner.
+
+**Management Response**
+
+Simulated management response indicated agreement with the finding and corrective action. Status: Open as of the report date.
+
+### Finding F-005: Incomplete Investigation of Failed Financial Processing Jobs
+
+**Related Test:** OP-02  
+**Control:** ITGC-OP-02  
+**Domain:** IT Operations  
+**Preliminary Severity:** High
+
+**Condition**
+
+Two sampled failed financial processing job executions lacked documented evidence of investigation and resolution.
+
+**Criteria**
+
+Failed critical financial processing jobs should be monitored, investigated, and resolved, with appropriate documentation retained.
+
+**Risk and Potential Impact**
+
+Incomplete or failed processing may result in missing, delayed, or inaccurate financial data and could affect financial reporting activities.
+
+**Root Cause**
+
+Undetermined based on the available simulated evidence. Management validation is required.
+
+**Recommendation**
+
+Implement documented exception tracking, assign investigation owners, require resolution evidence, and monitor outstanding processing failures through closure.
+
+**Management Response**
+
+Simulated management response indicated agreement with the finding and corrective action. Status: Open as of the report date.
+
+### Finding F-006: Unresolved Recovery-Time Objective Failure
+
+**Related Test:** OP-04  
+**Control:** ITGC-OP-04  
+**Domain:** IT Operations  
+**Preliminary Severity:** High
+
+**Condition**
+
+One recovery test identified a recovery-time objective failure that remained unresolved at year-end.
+
+**Criteria**
+
+Critical financial systems should have documented and tested recovery arrangements, and identified recovery weaknesses should be tracked and addressed.
+
+**Risk and Potential Impact**
+
+Extended system downtime could disrupt financial reporting activities and delay access to critical financial data and systems.
+
+**Root Cause**
+
+Undetermined based on the available simulated evidence. Management validation is required.
+
+**Recommendation**
+
+Develop and execute a corrective action plan, assign accountable owners and target dates, address the recovery-time objective gap, and perform a follow-up recovery test.
+
+**Management Response**
+
+Simulated management response indicated agreement with the finding and corrective action. Status: Open as of the report date.
 
 ## 9. Remediation and Corrective Action Plan
 
-A remediation plan was developed for all six findings.
+A remediation plan was documented for all six preliminary findings.
 
-| Finding ID | Responsible Owner | Target Completion |
+The plan assigned corrective actions, responsible owners, supporting teams, priorities, target dates, milestones, required closure evidence, and validation procedures.
+
+| Finding | Corrective Action | Priority |
 |---|---|---|
-| F-001 | IT Security Manager | March 31, 2026 |
-| F-002 | Application Owner | February 28, 2026 |
-| F-003 | Application Development Manager | April 15, 2026 |
-| F-004 | IT Change Manager | March 15, 2026 |
-| F-005 | Application Operations Manager | April 30, 2026 |
-| F-006 | IT Disaster Recovery Manager | May 31, 2026 |
+| F-001 | Perform and document quarterly privileged access reviews and track exceptions to resolution. | High |
+| F-002 | Require and retain application owner approval for quarterly access reviews. | Moderate |
+| F-003 | Require documented testing and review before production changes are deployed. | High |
+| F-004 | Require timely retrospective review and documented approval of emergency changes. | Moderate |
+| F-005 | Establish documented investigation, ownership, and resolution tracking for failed financial processing jobs. | High |
+| F-006 | Address the recovery-time objective gap and perform a successful follow-up recovery test. | High |
 
-The remediation plan includes corrective actions, accountable owners, supporting teams, milestones, closure evidence, and validation procedures.
+The detailed corrective actions, owners, target dates, milestones, closure evidence, and validation procedures are maintained in `findings/remediation_plan.csv`.
 
-All remediation statuses are recorded as Open in the simulated plan. No remediation should be considered complete until supporting evidence has been reviewed and the relevant control has been retested.
+The simulated management responses are maintained in `findings/management_responses.csv`.
 
-## 10. Overall Audit Assessment
+### 9.1 Remediation Status
 
-The simulated assessment identified control exceptions across all three ITGC domains.
+All six remediation actions were recorded as Open as of January 31, 2026, the simulated report date.
 
-The results suggest that Apex Financial Services should strengthen:
+The target dates and statuses reflect the historical scenario. They do not establish whether any action was subsequently completed.
 
-- Privileged access governance and periodic access reviews.
-- Documentation of change testing and emergency change approvals.
-- Investigation and resolution of failed financial processing jobs.
-- Recovery testing and follow-up of identified continuity issues.
+### 9.2 Remediation Validation
 
-The six findings require management attention and documented corrective action.
+Remediation closure requires supporting evidence demonstrating that the corrective action was implemented and that the identified control issue was appropriately addressed.
 
-The assessment does not establish that the fictional company has a material weakness, significant deficiency, or actual SOX noncompliance. Such determinations require additional analysis of the likelihood and potential magnitude of financial statement misstatement, relevant compensating controls, and applicable reporting requirements.
+The planned validation procedures include inspection of revised access reviews, approval records, change testing documentation, emergency change reviews, processing job exception records, and recovery test results.
+
+Management confirmation alone is not sufficient evidence of closure.
+
+## 10. Overall Audit Conclusion
+
+The simulated audit documented the results of testing 12 selected IT General Controls across Access Management, Change Management, and IT Operations.
+
+Six controls passed the documented sample tests, while six controls had identified exceptions.
+
+The exceptions involved documentation of access reviews, change testing, emergency change reviews, investigation of failed financial processing jobs, and an unresolved recovery-time objective failure.
+
+The findings were documented with preliminary severity ratings and corresponding corrective action recommendations.
+
+The available simulated evidence does not establish the underlying root causes of the exceptions in every case. Management validation would be necessary before treating proposed causes as confirmed.
+
+The project does not establish whether any identified exception constitutes a significant deficiency or material weakness under SOX. Such a determination would require a separate assessment of the likelihood and potential magnitude of a financial statement misstatement, the affected financial reporting processes, relevant compensating controls, and other applicable circumstances.
+
+Accordingly, this report communicates the results of the simulated procedures performed and the exceptions documented. It does not express an independent audit opinion, formal SOX compliance conclusion, or assurance opinion.
 
 ## 11. Audit Limitations
-
-This is an educational and portfolio-based simulation.
 
 The following limitations apply:
 
 1. Apex Financial Services, Inc. is fictional.
-2. All audit populations, samples, evidence records, test results, findings, and remediation plans are simulated.
-3. No actual company systems, employees, or financial records were examined.
+2. All organizational information, systems, populations, sample selections, evidence records, test results, exceptions, findings, management responses, and remediation activities are simulated.
+3. No actual company systems, employees, financial records, or production environments were examined.
 4. No independent external audit or assurance engagement was performed.
-5. Sample results do not provide statistical assurance about an entire population.
-6. Preliminary COBIT mappings require further validation at the relevant practice level.
-7. No formal opinion on SOX compliance or internal control effectiveness is expressed.
+5. The documented sample sizes are illustrative and do not provide statistical assurance.
+6. Individual sample identifiers and item-by-item testing results are not retained in the workpapers.
+7. Evidence references connect supporting records to tests at the test level.
+8. COBIT mappings are preliminary objective-level relationships and require further practice-level validation.
+9. The documented test results primarily address simulated operating effectiveness and do not establish a complete independent design-effectiveness assessment.
+10. Preliminary severity ratings are not formal SOX deficiency classifications.
+11. No determination of significant deficiency, material weakness, or overall SOX compliance is expressed.
 
-## 12. Conclusion
+## 12. Supporting Audit Workpapers
 
-This simulated audit demonstrates a structured approach to assessing IT General Controls that support financial reporting.
+The following workpapers support the simulated audit report:
 
-Through risk identification, control mapping, audit testing, evidence documentation, exception analysis, and remediation planning, the project illustrates how an IT auditor can evaluate selected controls and communicate potential weaknesses to management.
-
-The completed workpapers provide a traceable foundation for further audit procedures, management responses, remediation monitoring, and follow-up testing.
-
----
-
-## 13. Supporting Audit Workpapers
-
-The following repository artifacts support this report:
-
-| Artifact | Repository Location |
+| Workpaper | Repository Location |
 |---|---|
-| Audit Scope | `docs/audit_scope.md` |
+| Audit Scope and Objectives | `docs/audit_scope.md` |
 | Audit Methodology | `docs/audit_methodology.md` |
 | Framework Mapping | `references/framework_mapping.md` |
 | COBIT Control Mapping | `references/cobit_control_mapping.csv` |
-| SOX ITGC Risk and Control Matrix | `risk-control-matrix/sox_itgc_rcm.csv` |
+| Risk and Control Matrix | `risk-control-matrix/sox_itgc_rcm.csv` |
 | Access Management Testing | `audit-testing/access_management_testing.csv` |
 | Change Management Testing | `audit-testing/change_management_testing.csv` |
 | IT Operations Testing | `audit-testing/it_operations_testing.csv` |
-| Audit Evidence Register | `evidence/evidence_register.csv` |
-| Audit Findings Log | `findings/findings_log.csv` |
+| Audit Sampling Summary | `audit-testing/audit_sampling_summary.csv` |
+| Evidence Register | `evidence/evidence_register.csv` |
+| Findings Log | `findings/findings_log.csv` |
 | Remediation Plan | `findings/remediation_plan.csv` |
+| Management Responses | `findings/management_responses.csv` |
+
+## 13. Final Statement and Disclaimer
+
+This report documents a completed educational simulation of a risk-based SOX IT General Controls audit.
+
+The project demonstrates the application of IT audit concepts, including risk assessment, control documentation, framework mapping, sampling, evidence evaluation, operating-effectiveness testing, exception identification, findings development, remediation planning, and audit reporting.
+
+Apex Financial Services, Inc. is fictional. All information and results are simulated.
+
+This report is not an actual SOX audit report, independent auditor's opinion, certification, or assurance conclusion. It does not establish the compliance status of any real organization under SOX, COSO, or COBIT.
 
 **End of Report**
-
-*Prepared for educational and professional portfolio demonstration purposes only.*
