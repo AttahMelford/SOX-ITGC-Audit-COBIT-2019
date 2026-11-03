@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository contains a completed simulated, risk-based audit of IT General Controls (ITGCs) supporting Internal Control over Financial Reporting (ICFR) at Apex Financial Services, Inc., a fictional publicly traded U.S. financial services company.
+This repository contains a completed, risk-based audit of IT General Controls (ITGCs) supporting Internal Control over Financial Reporting (ICFR) at Apex Financial Services, Inc., a fictional publicly traded U.S. financial services company.
 
 The project documents an end-to-end IT audit process, from risk identification and control mapping through audit sampling, evidence evaluation, control testing, exception identification, findings development, remediation planning, and final reporting.
 
